@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+
 import { render } from 'react-dom';
-import Hello from './Hello';
+import { Hello } from './Hello';
 import './style.css';
 
 interface AppProps {}
@@ -19,7 +20,7 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+        <Hello />
       </div>
     );
   }
