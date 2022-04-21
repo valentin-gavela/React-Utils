@@ -31,7 +31,7 @@ const useRemoveElementKeepingChildren = () => {
 /**
  * This component allows the safe creation of an htmlString element
  * @param t If you ignore this param, we just add htmlString without
- * wrapping the string. Ignore `t` if htmlString has htmlElement container, for example:
+ * wrapping the htmlString.
  * `<div class="red">Hello I'm red</div>`
  */
 export const Raw: React.FC<Props> = ({ t, className, children }) => {
